@@ -1,0 +1,32 @@
+{
+  "sites": [
+    {
+      "id": 1,
+      "name": "Test",
+      "url": "http://test.se",
+      "live": true,
+      "mail": "External",
+      "avtal": false,
+      "userdata": false,
+      "dataRemoveDate": " ",
+      "screenshot": false,
+      "language": "",
+      "domain": "Loopia",
+      "serverId": 1,
+      "note": "",
+      "ga": false,
+      "gaCode": "",
+      "pixel": false
+    }
+  ],
+  "servers": [
+    {
+      "id": 1,
+      "name": "Test"
+    },
+    {
+      "id": 2,
+      "name": "GG-dev"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "apps": [{
+    "name": "gg-sites",
+    "script": "./index.js",
+    "cwd": "/var/www/html/gg-sites/current/server", 
+    "exec_mode": "fork_mode"
+  }]
+}
