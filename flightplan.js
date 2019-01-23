@@ -11,7 +11,7 @@ var config = {
 };
 
 plan.target('dev', {
-	host: 'gg-dev',
+	host: '138.68.135.6',
 	username: process.env.DEVUSER || process.env.USER,
 	agent: process.env.SSH_AUTH_SOCK,
 }, {
