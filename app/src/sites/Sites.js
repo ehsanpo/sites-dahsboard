@@ -74,9 +74,8 @@ export const PostList = props => (
             <TextField source="id" />
             <TextField source="name" />
             <UrlField source="url" />
+            <DateField source="last-update" />
             <BooleanField source="live" />
-            <BooleanField source="ga" />
-            <BooleanField source="pixel" />
             <BooleanField source="avtal" />
             <BooleanField source="userdata" />
             <DateField source="dataRemoveDate" />
@@ -100,6 +99,7 @@ export const PostCreate = props => (
         <SimpleForm toolbar={<PostCreateToolbar />}>
             <TextInput source="name" />
             <TextInput source="url" />
+            <DateInput source="last-update" />
             <DateInput source="dataRemoveDate" />
             <ReferenceInput source="serverId" reference="servers">
                 <AutocompleteInput optionText={choice => `${choice.name} `} />
@@ -126,6 +126,7 @@ export const PostEdit = props => (
             <TextInput source="name" validate={required()} />
             <TextInput source="url" />
             <DateInput source="dataRemoveDate" />
+            <DateInput source="last-update" />
             <ReferenceInput source="serverId" reference="servers">
                 <AutocompleteInput optionText={choice => `${choice.name} `} />
             </ReferenceInput>
@@ -150,6 +151,7 @@ export const PostShow = props => (
             <TextField source="id" />
             <TextField source="name" />
             <UrlField source="url" />
+            <DateField source="last-update" />
             <br />
             <label
                 class="MuiFormLabel-root-183 MuiInputLabel-root-178 MuiInputLabel-formControl-179 MuiInputLabel-animated-182 MuiInputLabel-shrink-181 Labeled-label-172"
@@ -158,6 +160,7 @@ export const PostShow = props => (
                 <span>1Pass</span>
             </label>
             <UrlField source="1Pass" />
+
 
             <BooleanField source="live" />
             <BooleanField source="ga" />

@@ -27,7 +27,10 @@ import config from "./config.js";
 
 const theme = createMuiTheme({
     palette: {
-        type: "light" // Switching the dark mode on is a single property value change.
+        type: "dark" ,// Switching the dark mode on is a single property value change.
+        primary:  {main: '#ffe200'},
+        secondary:{main: '#ffe200'},
+       
     }
 });
 

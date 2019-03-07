@@ -31,7 +31,10 @@ $max-width_m: 744px;
     @content;
   }
 }
-
+a {
+    color: #ffe200;
+    text-decoration: none;
+}
 .grid{
   display: grid;
   grid-gap: 24px;
